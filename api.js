@@ -1,4 +1,4 @@
-const BASE_URL = 'https://jsonplaceholder.typicode.com/posts';
+const BASE_URL = 'https://jsonplaceholder.typicode.com/users';
 
 export function getPosts() {
     return fetch(BASE_URL)
